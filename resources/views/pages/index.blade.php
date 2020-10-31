@@ -7,6 +7,6 @@
     </head>
     <body>
         <h1>flapp</h1>
-        <p>about</p>
+        <p>home</p>
     </body>
 </html>
