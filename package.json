@@ -17,5 +17,6 @@
         "lodash": "^4.17.19",
         "prettier": "^2.1.2",
         "resolve-url-loader": "^3.1.0"
-    }
+    },
+    "name": "flapp"
 }
