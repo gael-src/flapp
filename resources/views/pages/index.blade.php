@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>flapp</title>
-    </head>
-    <body>
-        <h1>flapp</h1>
-        <p>home</p>
-    </body>
-</html>
+@extends('layouts.app')
+
+@section('content')
+    <h1>flapp</h1>
+    <h2>{{$title}}</h2>
+    <p>home</p>
+@endsection
