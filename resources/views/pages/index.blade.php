@@ -1,7 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>flapp</h1>
     <h2>{{$title}}</h2>
-    <p>home</p>
+    <p>This is a Laravel App</p>
+
+    <a href="/flapp/public/login">login</a>
+    <a href="/flapp/public/register">resgister</a>
 @endsection
